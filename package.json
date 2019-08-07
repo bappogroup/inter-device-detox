@@ -1,7 +1,13 @@
 {
-  "name": "inter-device-detox",
+  "name": "@bappo/inter-device-detox",
   "version": "0.0.2",
-  "private": true,
+  "homepage": "https://github.com/bappogroup/inter-device-detox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bappogroup/inter-device-detox.git"
+  },
+  "license": "MIT",
+  "author": "Bappo",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "server": "node chat-server.js",
