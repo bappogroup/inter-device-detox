@@ -19,7 +19,7 @@ By using two or more instances of Detox e2e test processes interacting with each
 
 ## How it works
 
-All we need is some soft of a locking mechanism. In this implementation, it's a node.js server that accepts certain commands and allows one device to wait for another, and share some information between them.
+All we need is some sort of a locking mechanism. In this implementation, it's a node.js server that accepts certain commands and allows one device to wait for another, and share some information between them.
 
 ```js
 it('should be able to send and receive messages and correctly update delivery statuses', async () => {
