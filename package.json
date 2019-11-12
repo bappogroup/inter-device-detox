@@ -1,5 +1,6 @@
 {
   "name": "@bappo/inter-device-detox",
+  "description": "NPM package + demos. Not the real npm package",
   "version": "0.0.2",
   "homepage": "https://github.com/bappogroup/inter-device-detox",
   "repository": {
